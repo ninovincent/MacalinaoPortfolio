@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open Portfolio",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "C:\\Windows\\System32\\cmd.exe",
+      "runtimeArgs": [
+        "/d",
+        "/c",
+        "${workspaceFolder}\\.vscode\\open-portfolio.cmd"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "neverOpen",
+      "autoAttachChildProcesses": false,
+      "noDebug": true,
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

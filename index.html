@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macalinao | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#profile">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#profile">
+        <span class="brand-mark">M</span>
+        Macalinao
+      </a>
+      <input class="nav-toggle" id="nav-toggle" type="checkbox">
+      <label class="menu-btn" for="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></label>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#profile" data-section="profile">Profile</a>
+        <a href="#work" data-section="work">Work</a>
+        <a href="#contact" data-section="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="page-indicator" aria-hidden="true">
+    <a href="#profile" class="is-on" data-section="profile"></a>
+    <a href="#work" data-section="work"></a>
+    <a href="#contact" data-section="contact"></a>
+  </aside>
+
+  <main>
+    <section id="profile" class="panel page">
+      <div class="hero">
+        <div class="portrait-wrap">
+          <div class="portrait-ring"></div>
+          <figure class="portrait-frame">
+            <img src="images/s.jpg" alt="Portrait of Macalinao">
+          </figure>
+        </div>
+
+        <div>
+          <p class="kicker">Personal Portfolio</p>
+          <h1>Hello, I am Macalinao.</h1>
+          <p class="lede">
+            I am a student building a clear, considered body of work. This site introduces who I am,
+            the projects I care about, and the skills I continue to refine. I value honest craft,
+            practical thinking, and a calm, professional presence.
+          </p>
+          <p class="social-line">
+            Facebook:
+            <a href="https://www.facebook.com/https.nins" target="_blank" rel="noopener noreferrer">https://www.facebook.com/https.nins</a>
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#work">View my work</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <blockquote class="motto">
+            <p>“Do good work, stay curious, and leave things better than you found them.”</p>
+            <span>Personal motto</span>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="panel page">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Showcase</p>
+          <h2>Selected projects</h2>
+        </div>
+        <p>Three independent studies in taste, outdoor living, and commerce.</p>
+      </div>
+
+      <div class="grid-3">
+        <a class="card card-link" href="thrifting.html">
+          <img class="card-photo" src="images/thrifting.jpg" alt="Thrifting stall with hoodies and caps">
+          <div class="card-icon tone-teal" aria-hidden="true">01</div>
+          <h3>Thrifting</h3>
+          <p>
+            A personal project in finding quality secondhand pieces, restoring their value,
+            and presenting them with care. The focus is curation, storytelling, and sustainable style.
+          </p>
+          <span class="tag">View photo</span>
+        </a>
+
+        <a class="card card-link" href="camping.html">
+          <img class="card-photo" src="images/camping-1.jpg" alt="Camping with a tent and chairs in a grassy field">
+          <div class="card-icon tone-coral" aria-hidden="true">02</div>
+          <h3>Camping</h3>
+          <p>
+            Planning outdoor trips with intention: packing light, choosing reliable gear,
+            and documenting the experience. This work is about preparation and presence.
+          </p>
+          <span class="tag">View photos</span>
+        </a>
+
+        <a class="card card-link" href="selling.html">
+          <img class="card-photo" src="images/selling-2.jpg" alt="Jordan shorts laid out for sale">
+          <div class="card-icon tone-gold" aria-hidden="true">03</div>
+          <h3>Selling</h3>
+          <p>
+            Turning products into clear offers. I practice presentation, customer communication,
+            and honest pricing so each listing feels simple, trustworthy, and complete.
+          </p>
+          <span class="tag">View photos</span>
+        </a>
+      </div>
+
+      <div class="block">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Capabilities</p>
+            <h2>Skills</h2>
+          </div>
+          <p>Core strengths I continue to practice and apply.</p>
+        </div>
+
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-top">Skill 1 <span>Strong</span></div>
+            <div class="bar" aria-hidden="true"><i style="width: 88%"></i></div>
+          </div>
+          <div class="skill">
+            <div class="skill-top">Skill 2 <span>Growing</span></div>
+            <div class="bar" aria-hidden="true"><i style="width: 74%"></i></div>
+          </div>
+          <div class="skill">
+            <div class="skill-top">Skill 3 <span>Practicing</span></div>
+            <div class="bar" aria-hidden="true"><i style="width: 66%"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Beyond work</p>
+            <h2>Hobbies</h2>
+          </div>
+          <p>Interests that keep my work grounded and curious.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card hobby-card">
+            <div class="emoji" aria-hidden="true">📷</div>
+            <h3>Photography</h3>
+            <p>Capturing quiet details, textures, and everyday scenes.</p>
+          </article>
+          <article class="card hobby-card">
+            <div class="emoji" aria-hidden="true">🎧</div>
+            <h3>Music</h3>
+            <p>Listening widely and using sound as a way to reset and focus.</p>
+          </article>
+          <article class="card hobby-card">
+            <div class="emoji" aria-hidden="true">🌿</div>
+            <h3>Time outdoors</h3>
+            <p>Short walks and open air, the same spirit behind camping.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel page">
+      <p class="kicker">Connect</p>
+      <h2>Social media and contact</h2>
+      <p class="lede">I welcome thoughtful messages about projects, collaboration, or class work.</p>
+
+      <div class="contact-layout block">
+        <div>
+          <h3 class="serif" style="font-size: 1.8rem; margin-bottom: 0.4rem;">Find me online</h3>
+          <p style="color: var(--muted);">Reach me through the profiles and details below.</p>
+          <ul class="contact-list">
+            <li><a href="https://www.facebook.com/https.nins" target="_blank" rel="noopener noreferrer"><span class="dot"></span> Facebook · facebook.com/https.nins</a></li>
+            <li><a href="https://www.instagram.com/ninscoopx/" target="_blank" rel="noopener noreferrer"><span class="dot" style="background: var(--burgundy)"></span> Instagram · instagram.com/ninscoopx</a></li>
+          </ul>
+
+          <h3 class="serif" style="font-size: 1.8rem; margin: 1.8rem 0 0.4rem;">Contact information</h3>
+          <ul class="contact-list">
+            <li><span class="dot"></span> Email: ninovincentmacalinao1973@gmail.com</li>
+            <li><span class="dot" style="background: var(--burgundy)"></span> Phone: +63 905 9594 112</li>
+            <li><span class="dot" style="background: var(--gold)"></span> Location: Philippines</li>
+          </ul>
+        </div>
+
+        <article class="card">
+          <h3>Send a note</h3>
+          <p>A simple message form for visitors. Messages are sent to ninovincentmacalinao1973@gmail.com.</p>
+          <form class="form" style="margin-top: 1rem;" action="mailto:ninovincentmacalinao1973@gmail.com" method="post" enctype="text/plain">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required placeholder="Your name">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="you@email.com">
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="How can I help?"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send message</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Macalinao Portfolio
+  </footer>
+  <script src="js/photos.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+</html>
