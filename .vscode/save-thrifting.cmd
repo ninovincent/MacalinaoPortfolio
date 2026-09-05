@@ -3,6 +3,7 @@ setlocal
 cd /d "%~dp0\.."
 set "SRC=%USERPROFILE%\.cursor\projects\c-Users-Administrator-Desktop-MacalinaoPortfolio\assets"
 set "DEST=%cd%\images"
+set "PORTRAIT=%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-501aa18a-d726-4d2d-9166-084a5b953521.png"
 set "THRIFT=%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-f7ad5a7c-4c31-4ca3-abdf-cf7739119074.jpg"
 set "CAMP1=%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-0690b502-1418-46c2-9227-09622a226b6e.jpg"
 set "CAMP2=%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-cff3098b-2231-44cc-aaaf-67eb54b677ad.jpg"
@@ -15,6 +16,11 @@ set "SELL5=%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceSto
 set "SELL6=%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-d86c10c4-6b0a-4aeb-8ab6-a2c10cb51b96.jpg"
 
 if not exist "%DEST%" mkdir "%DEST%"
+if exist "%PORTRAIT%" (
+  copy /Y "%PORTRAIT%" "%DEST%\s.png" >nul
+  copy /Y "%PORTRAIT%" "%SRC%\s.png" >nul
+  echo Saved to %DEST%\s.png
+)
 if exist "%THRIFT%" (
   copy /Y "%THRIFT%" "%DEST%\thrifting.jpg" >nul
   copy /Y "%THRIFT%" "%SRC%\thrifting.jpg" >nul

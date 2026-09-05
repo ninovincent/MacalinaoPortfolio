@@ -6,7 +6,10 @@ set "SRC=%USERPROFILE%\.cursor\projects\c-Users-Administrator-Desktop-MacalinaoP
 set "DEST=%cd%\images"
 
 if not exist "%DEST%" mkdir "%DEST%"
-if exist "%SRC%\s.jpg" copy /Y "%SRC%\s.jpg" "%DEST%\s.jpg" >nul
+if exist "%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-501aa18a-d726-4d2d-9166-084a5b953521.png" (
+  copy /Y "%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-501aa18a-d726-4d2d-9166-084a5b953521.png" "%SRC%\s.png" >nul
+)
+if exist "%SRC%\s.png" copy /Y "%SRC%\s.png" "%DEST%\s.png" >nul
 if exist "%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-f7ad5a7c-4c31-4ca3-abdf-cf7739119074.jpg" (
   copy /Y "%SRC%\c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-f7ad5a7c-4c31-4ca3-abdf-cf7739119074.jpg" "%SRC%\thrifting.jpg" >nul
 )

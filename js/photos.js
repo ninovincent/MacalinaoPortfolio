@@ -1,6 +1,6 @@
 (function () {
   var files = [
-    "s.jpg",
+    "s.png",
     "thrifting.jpg",
     "camping-1.jpg",
     "camping-2.jpg",
@@ -15,6 +15,10 @@
   var fallbackRoot =
     "../../.cursor/projects/c-Users-Administrator-Desktop-MacalinaoPortfolio/assets/";
   var aliases = {
+    "s.png": [
+      "c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-501aa18a-d726-4d2d-9166-084a5b953521.png",
+      "s.png"
+    ],
     "thrifting.jpg": [
       "c__Users_Administrator_AppData_Roaming_Cursor_User_workspaceStorage_4662e3e8a33d39074ee93336ef1eed12_images_image-f7ad5a7c-4c31-4ca3-abdf-cf7739119074.jpg",
       "thrifting.jpg"
