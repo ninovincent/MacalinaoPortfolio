@@ -12,11 +12,24 @@
         "${workspaceFolder}\\.vscode\\open-portfolio.cmd"
       ],
       "cwd": "${workspaceFolder}",
-      "console": "internalConsole",
+      "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
       "autoAttachChildProcesses": false,
-      "noDebug": true,
       "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Open Portfolio in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html",
+      "preLaunchTask": "Copy portfolio images"
+    },
+    {
+      "name": "Open Portfolio in Edge",
+      "type": "msedge",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html",
+      "preLaunchTask": "Copy portfolio images"
     }
   ]
 }

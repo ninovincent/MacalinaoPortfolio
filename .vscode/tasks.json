@@ -2,6 +2,18 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Copy portfolio images",
+      "type": "process",
+      "command": "${workspaceFolder}\\.vscode\\save-thrifting.cmd",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared",
+        "echo": false,
+        "showReuseMessage": false
+      }
+    },
+    {
       "label": "Open Portfolio",
       "type": "process",
       "command": "${workspaceFolder}\\.vscode\\open-portfolio.cmd",
@@ -11,9 +23,10 @@
         "isDefault": true
       },
       "presentation": {
-        "reveal": "never",
+        "reveal": "always",
         "panel": "shared",
-        "echo": false
+        "echo": true,
+        "focus": false
       }
     }
   ]
